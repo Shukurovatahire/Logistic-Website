@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+.contactContainer {
+    width: 100%;
+
+
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.cotainerHeader {
+    width: 1180px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.cotainerHeader ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.cotainerHeader a {
+    text-decoration: none;
+    color: white;
+}
+
+.cotainerHeader p {
+    font-size: 30px;
+}
+
+.containerFirst {
+    width: 100%;
+    background-color: rgb(7, 13, 89);
+    height: 800px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 150px;
+    min-height: 100px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+
+
+.containerJoin {
+    width: 100%;
+    min-height: 650px;
+    background-image: url(https://preview.colorlib.com/theme/foundation2/images/hero_bg_1.jpg.webp);
+    background-attachment: fixed;
+
+    background-size: cover;
+
+}
+
+.containerJoinWapper {
+    min-width: 1180px;
+    min-height: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(8, 17, 88, 0.8)
+}
+
+.containerJoinWapper h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.containerJoinWapper p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.containerJoinWapper button {
+    background-color: rgb(0, 234, 255);
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    border: none;
+}
+
+.inputContaiener{
+    width: 100%;
+    height: 600px;
+}
+.form{
+    width: 100%;
+  
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+input{
+    width: 660px;
+    height: 50px;
+    margin-bottom: 2rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.dflex{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+
+button{
+    background-color: rgb(8, 17, 88);
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+/* form end */
+
+
+
+.coantainerSlide {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    gap: 3rem;
+}
+
+#carouselExampleControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner {
+    width: 850px;
+}
+
+.carousel-item p {
+    font-size: 20px;
+}
+
+.carousel-item h2 {
+    font-size: 30px;
+}
+
+.carousel-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+.slide {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.carousel-item span {
+    color: rgb(173, 181, 189);
+    font-weight: bold;
+    font-family: serif;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(7, 13, 89);
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(7, 13, 89);
+}
+
+.coantainerSlideText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 10rem !important;
+}
+
+.coantainerSlideText i {
+    margin-right: 1rem;
+}
+
+.coantainerSlideText h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: serif;
+    margin-bottom: 2rem;
+}
+
+.coantainerSlideText span {
+    color: rgb(173, 181, 189);
+    font-weight: bold;
+}
+
+.hiddenText {
+    display: none;
+}
+
+.hiddenText2 {
+    display: none;
+}
+
+.hiddenText3 {
+    display: none;
+}
+
+.click-element {
+    height: 30px;
+    font-weight: bold;
+}
+
+.click-element2 {
+    height: 30px;
+    font-weight: bold;
+}
+
+.click-element3 {
+    height: 30px;
+    font-weight: bold;
+}
+
+.click-element:hover {
+    background-color: #efefef;
+}
+
+.click-element2:hover {
+    background-color: #efefef;
+}
+
+.click-element3:hover {
+    background-color: #efefef;
+}
+
+.hiddenText {
+    padding: 1rem;
+}
+
+.hiddenText2 {
+    padding: 1rem;
+}
+
+.hiddenText3 {
+    padding: 1rem;
+}
+
+
+/* Footer */
+
+
+.containerFooter {
+    width: 100%;
+    height: 500px;
+    margin-top: 3rem;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerFooterAll {
+    width: 1180px;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.containerFooterItems {
+    display: flex;
+    height: 300px;
+    width: 270px;
+    flex-direction: column;
+}
+
+.containerFooterItems ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.containerFooterItems h3 {
+    font-size: 18px;
+    font-weight: b;
+    color: #2e2e2e;
+    margin-bottom: 2rem;
+}
+
+.containerFooterItems li {
+    color: #7a7a7a;
+}
+
+
+.containerFooterItem2 ul {
+    list-style: none;
+    display: flex;
+    color: #7a7a7a;
+    gap: 1.5rem;
+}
+.footerIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(136, 136, 136);
+}
+
+.footerIcons i {
+    color: white;
+}
+.containerFooterItems1{
+    height: 300px;
+}
+
+.containerFooterItems1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.containerFooterItems1 h3{
+    font-size: 18px;
+    font-weight: b;
+    color: #2e2e2e;
+    margin-bottom: 2rem;
+   
+}
+.footercoyright{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 5rem;
+}
+.footercoyright a{ 
+    border-left: 1px solid black;
+    padding-left: .5rem ;
+}

@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+.contactContainer {
+    width: 100%;
+
+
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.cotainerHeader {
+    width: 1180px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.cotainerHeader ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.cotainerHeader a {
+    text-decoration: none;
+    color: white;
+}
+
+.cotainerHeader p {
+    font-size: 30px;
+}
+
+.containerFirst {
+    width: 100%;
+    background-color: rgb(7, 13, 89);
+    height: 800px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 150px;
+    min-height: 100px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+
+
+.containerJoin {
+    width: 100%;
+    min-height: 650px;
+    background-image: url(https://preview.colorlib.com/theme/foundation2/images/hero_bg_1.jpg.webp);
+    background-attachment: fixed;
+
+    background-size: cover;
+
+}
+
+.containerJoinWapper {
+    min-width: 1180px;
+    min-height: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(8, 17, 88, 0.8)
+}
+
+.containerJoinWapper h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.containerJoinWapper p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.containerJoinWapper button {
+    background-color: rgb(0, 234, 255);
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    border: none;
+}
+
+
+
+
+
+.teamContainer {
+    width: 100%;
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+}
+
+.teamContainerTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.teamContainerTitle span {
+    color: rgb(173, 181, 189);
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.teamContainerTitle h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.teamContainerWapper {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.teamContainerCards {
+    display: flex;
+    gap: 4rem;
+}
+
+.teamContainerItems {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.teamContainerItems img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.teamContainerItems h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teamContainerItems button {
+    border: none;
+    width: fit-content;
+    color: rgb(33, 37, 41);
+    background-color: transparent;
+}
+
+
+
+.aboutUs {
+    width: 100%;
+    height: 800px;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutUsContainer {
+    width: 1180px;
+    margin: 0 auto;
+    height: 500px;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.aboutUsContainerTextTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUsContainerTextTitle span {
+    color: rgb(173, 181, 189);
+    font-weight: bold;
+    font-family: serif;
+
+}
+
+.aboutUsContainerTextTitle h2 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.aboutUsContainerTextTitle p {
+    text-align: left;
+    color: rgb(33, 37, 41);
+}
+
+.aboutUsContainerTextCard img {
+    width: 80px;
+    height: 80px;
+}
+
+.aboutUsContainerPhoto img {
+    position: absolute;
+    width: 640px;
+    height: 430px;
+}
+
+.aboutUsContainerTextCard {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.aboutUsContainerTextCard h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.playIcon {
+    top: 40%;
+    left: 55%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.coantainerSlide {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    gap: 3rem;
+}
+
+#carouselExampleControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner {
+    width: 850px;
+}
+
+.carousel-item p {
+    font-size: 20px;
+}
+
+.carousel-item h2 {
+    font-size: 30px;
+}
+
+.carousel-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+.slide {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.carousel-item span {
+    color: rgb(173, 181, 189);
+    font-weight: bold;
+    font-family: serif;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(7, 13, 89);
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(7, 13, 89);
+}
+
+.coantainerSlideText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 10rem !important;
+}
+
+.coantainerSlideText i {
+    margin-right: 1rem;
+}
+
+.coantainerSlideText h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: serif;
+    margin-bottom: 2rem;
+}
+
+.coantainerSlideText span {
+    color: rgb(173, 181, 189);
+    font-weight: bold;
+}
+
+.hiddenText {
+    display: none;
+}
+
+.hiddenText2 {
+    display: none;
+}
+
+.hiddenText3 {
+    display: none;
+}
+
+.click-element {
+    height: 30px;
+    font-weight: bold;
+}
+
+.click-element2 {
+    height: 30px;
+    font-weight: bold;
+}
+
+.click-element3 {
+    height: 30px;
+    font-weight: bold;
+}
+
+.click-element:hover {
+    background-color: #efefef;
+}
+
+.click-element2:hover {
+    background-color: #efefef;
+}
+
+.click-element3:hover {
+    background-color: #efefef;
+}
+
+.hiddenText {
+    padding: 1rem;
+}
+
+.hiddenText2 {
+    padding: 1rem;
+}
+
+.hiddenText3 {
+    padding: 1rem;
+}
+
+
+
+
+.containerFooter {
+    width: 100%;
+    height: 500px;
+    margin-top: 3rem;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerFooterAll {
+    width: 1180px;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.containerFooterItems {
+    display: flex;
+    height: 300px;
+    width: 270px;
+    flex-direction: column;
+}
+
+.containerFooterItems ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.containerFooterItems h3 {
+    font-size: 18px;
+    font-weight: b;
+    color: #2e2e2e;
+    margin-bottom: 2rem;
+}
+
+.containerFooterItems li {
+    color: #7a7a7a;
+}
+
+
+.containerFooterItem2 ul {
+    list-style: none;
+    display: flex;
+    color: #7a7a7a;
+    gap: 1.5rem;
+}
+.footerIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(136, 136, 136);
+}
+
+.footerIcons i {
+    color: white;
+}
+.containerFooterItems1{
+    height: 300px;
+}
+/* footer */
+.containerFooterItems1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.containerFooterItems1 h3{
+    font-size: 18px;
+    font-weight: b;
+    color: #2e2e2e;
+    margin-bottom: 2rem;
+   
+}
+.footercoyright{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 5rem;
+}
+.footercoyright a{ 
+    border-left: 1px solid black;
+    padding-left: .5rem ;
+}
